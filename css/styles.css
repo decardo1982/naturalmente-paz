@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #1D809F;
-  --bs-link-hover-color: #17667f;
+  --bs-link-color: #ffc401;
+  --bs-link-hover-color: #ecb807;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fbf1cd;
 }
@@ -245,7 +245,7 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color: rgb(233, 226, 204);
   text-decoration: underline;
 }
 a:hover {
@@ -8126,7 +8126,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #f3d7bc;
 }
 
 .bg-secondary {
@@ -10844,7 +10844,7 @@ html {
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(91 37 37 / 70%);
 }
 
 .scroll-to-top {
@@ -10877,7 +10877,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #ebb37d;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -10982,12 +10982,12 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #ebb37d;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #ef851e;
   text-decoration: none;
 }
 
@@ -11100,7 +11100,7 @@ footer.footer .social-link:hover {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: #ebb37d;
   height: 7rem;
   width: 7rem;
   display: block;
