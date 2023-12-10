@@ -19,6 +19,7 @@
   --bs-orange: #fd7e14;
   --bs-yellow: #ecb807;
   --bs-green: #198754;
+  --bs-green-olive: #186600;
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
   --bs-black: #000;
@@ -97,7 +98,7 @@ body {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
+  color: var(--bs-green-olive);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
@@ -11136,11 +11137,18 @@ input, textarea, select {
   width: 100%;
   min-height: 2em;
 }
+
+
+/* Por defecto, oculta el texto y establece un fondo transparente */
 .portfolio-item .caption {
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
+/* Al hacer hover, muestra el fondo y el texto */
 .portfolio-item:hover .caption {
   opacity: 1;
-}
+  background-color: #f3d7bc;
+  }
+
